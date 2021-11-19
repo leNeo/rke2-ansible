@@ -1,5 +1,5 @@
 [masters]
-master-01 ansible_host="{{ node1_ip }}" rke2_type=server
+master-01 ansible_host="{{ master1_ip }}" rke2_type=server
 
 [workers]
 worker-01 ansible_host="{{ worker1_ip }}" rke2_type=agent
